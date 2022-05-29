@@ -18,6 +18,6 @@
 
 ## References
 
--The resolution data is pulled form [here](https://www.ios-resolution.com/)
+- The resolution data is pulled form [here](https://www.ios-resolution.com/)
 
--iOS devices id is fetched form [here](https://gist.github.com/adamawolf/3048717)
+- iOS devices id is fetched form [here](https://gist.github.com/adamawolf/3048717)
