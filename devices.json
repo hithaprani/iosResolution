@@ -1,0 +1,702 @@
+[
+  {
+    "deviceid": ["iPhone14,5"],
+    "model": "iPhone 13",
+    "physicalHeigth": 2532,
+    "physicalWidth": 1170,
+    "scale": 3,
+    "size": 6.06,
+    "viewportHeight": 844,
+    "viewportWidth": 390
+  },
+  {
+    "deviceid": ["iPhone14,4"],
+    "model": "iPhone 13 mini",
+    "physicalHeigth": 2340,
+    "physicalWidth": 1080,
+    "scale": 3,
+    "size": 5.42,
+    "viewportHeight": 812,
+    "viewportWidth": 375
+  },
+  {
+    "deviceid": ["iPhone14,3"],
+    "model": "iPhone 13 Pro Max",
+    "physicalHeigth": 2778,
+    "physicalWidth": 1284,
+    "scale": 3,
+    "size": 6.68,
+    "viewportHeight": 926,
+    "viewportWidth": 428
+  },
+  {
+    "deviceid": ["iPhone14,2"],
+    "model": "iPhone 13 Pro",
+    "physicalHeigth": 2532,
+    "physicalWidth": 1170,
+    "scale": 3,
+    "size": 6.06,
+    "viewportHeight": 844,
+    "viewportWidth": 390
+  },
+  {
+    "deviceid": ["iPhone13,2"],
+    "model": "iPhone 12",
+    "physicalHeigth": 2532,
+    "physicalWidth": 1170,
+    "scale": 3,
+    "size": 6.06,
+    "viewportHeight": 844,
+    "viewportWidth": 390
+  },
+  {
+    "deviceid": ["iPhone13,1"],
+    "model": "iPhone 12 mini",
+    "physicalHeigth": 2340,
+    "physicalWidth": 1080,
+    "scale": 3,
+    "size": 5.42,
+    "viewportHeight": 812,
+    "viewportWidth": 375
+  },
+  {
+    "deviceid": ["iPhone13,4"],
+    "model": "iPhone 12 Pro Max",
+    "physicalHeigth": 2778,
+    "physicalWidth": 1284,
+    "scale": 3,
+    "size": 6.68,
+    "viewportHeight": 926,
+    "viewportWidth": 428
+  },
+  {
+    "deviceid": ["iPhone13,3"],
+    "model": "iPhone 12 Pro",
+    "physicalHeigth": 2532,
+    "physicalWidth": 1170,
+    "scale": 3,
+    "size": 6.06,
+    "viewportHeight": 844,
+    "viewportWidth": 390
+  },
+  {
+    "deviceid": ["iPhone12,8", "iPhone14,6"],
+    "model": "iPhone SE 2nd gen",
+    "physicalHeigth": 1334,
+    "physicalWidth": 750,
+    "scale": 2,
+    "size": 4.7,
+    "viewportHeight": 667,
+    "viewportWidth": 375
+  },
+  {
+    "deviceid": ["iPhone12,5"],
+    "model": "iPhone 11 Pro Max",
+    "physicalHeigth": 2688,
+    "physicalWidth": 1242,
+    "scale": 3,
+    "size": 6.46,
+    "viewportHeight": 896,
+    "viewportWidth": 414
+  },
+  {
+    "deviceid": ["iPhone12,3"],
+    "model": "iPhone 11 Pro",
+    "physicalHeigth": 2436,
+    "physicalWidth": 1125,
+    "scale": 3,
+    "size": 5.85,
+    "viewportHeight": 812,
+    "viewportWidth": 375
+  },
+  {
+    "deviceid": ["iPhone12,1"],
+    "model": "iPhone 11",
+    "physicalHeigth": 1792,
+    "physicalWidth": 828,
+    "scale": 2,
+    "size": 6.1,
+    "viewportHeight": 896,
+    "viewportWidth": 414
+  },
+  {
+    "deviceid": ["iPhone11,8"],
+    "model": "iPhone XR",
+    "physicalHeigth": 1792,
+    "physicalWidth": 828,
+    "scale": 2,
+    "size": 6.06,
+    "viewportHeight": 896,
+    "viewportWidth": 414
+  },
+  {
+    "deviceid": ["iPhone11,4", "iPhone11,6"],
+    "model": "iPhone XS Max",
+    "physicalHeigth": 2688,
+    "physicalWidth": 1242,
+    "scale": 3,
+    "size": 6.46,
+    "viewportHeight": 896,
+    "viewportWidth": 414
+  },
+  {
+    "deviceid": ["iPhone11,2"],
+    "model": "iPhone XS",
+    "physicalHeigth": 2436,
+    "physicalWidth": 1125,
+    "scale": 3,
+    "size": 5.85,
+    "viewportHeight": 812,
+    "viewportWidth": 375
+  },
+  {
+    "deviceid": ["iPhone10,3", "iPhone10,6"],
+    "model": "iPhone X",
+    "physicalHeigth": 2436,
+    "physicalWidth": 1125,
+    "scale": 3,
+    "size": 5.85,
+    "viewportHeight": 812,
+    "viewportWidth": 375
+  },
+  {
+    "deviceid": ["iPhone10,2", "iPhone10,5"],
+    "model": "iPhone 8 Plus",
+    "physicalHeigth": 1920,
+    "physicalWidth": 1080,
+    "scale": 3,
+    "size": 5.5,
+    "viewportHeight": 736,
+    "viewportWidth": 414
+  },
+  {
+    "deviceid": ["iPhone10,1", "iPhone10,4"],
+    "model": "iPhone 8",
+    "physicalHeigth": 1334,
+    "physicalWidth": 750,
+    "scale": 2,
+    "size": 4.7,
+    "viewportHeight": 667,
+    "viewportWidth": 375
+  },
+  {
+    "deviceid": ["iPhone9,2", "iPhone9,4"],
+    "model": "iPhone 7 Plus",
+    "physicalHeigth": 2208,
+    "physicalWidth": 1242,
+    "scale": 3,
+    "size": 5.5,
+    "viewportHeight": 847,
+    "viewportWidth": 476
+  },
+  {
+    "deviceid": ["iPhone9,1", "iPhone9,3"],
+    "model": "iPhone 7",
+    "physicalHeigth": 1334,
+    "physicalWidth": 750,
+    "scale": 2,
+    "size": 4.7,
+    "viewportHeight": 667,
+    "viewportWidth": 375
+  },
+  {
+    "deviceid": ["iPhone8,4"],
+    "model": "iPhone SE 1st gen",
+    "physicalHeigth": 1136,
+    "physicalWidth": 640,
+    "scale": 2,
+    "size": 4,
+    "viewportHeight": 568,
+    "viewportWidth": 320
+  },
+  {
+    "deviceid": ["iPhone8,2"],
+    "model": "iPhone 6s Plus",
+    "physicalHeigth": 2208,
+    "physicalWidth": 1242,
+    "scale": 3,
+    "size": 5.5,
+    "viewportHeight": 847,
+    "viewportWidth": 476
+  },
+  {
+    "deviceid": ["iPhone8,1"],
+    "model": "iPhone 6s",
+    "physicalHeigth": 1334,
+    "physicalWidth": 750,
+    "scale": 2,
+    "size": 4.7,
+    "viewportHeight": 667,
+    "viewportWidth": 375
+  },
+  {
+    "deviceid": ["iPhone7,1"],
+    "model": "iPhone 6 Plus",
+    "physicalHeigth": 2208,
+    "physicalWidth": 1242,
+    "scale": 3,
+    "size": 5.5,
+    "viewportHeight": 847,
+    "viewportWidth": 476
+  },
+  {
+    "deviceid": ["iPhone7,2"],
+    "model": "iPhone 6",
+    "physicalHeigth": 1334,
+    "physicalWidth": 750,
+    "scale": 2,
+    "size": 4.7,
+    "viewportHeight": 667,
+    "viewportWidth": 375
+  },
+  {
+    "deviceid": ["iPhone5,3", "iPhone5,4"],
+    "model": "iPhone 5C",
+    "physicalHeigth": 1136,
+    "physicalWidth": 640,
+    "scale": 2,
+    "size": 4,
+    "viewportHeight": 568,
+    "viewportWidth": 320
+  },
+  {
+    "deviceid": ["iPhone6,1", "iPhone6,2"],
+    "model": "iPhone 5S",
+    "physicalHeigth": 1136,
+    "physicalWidth": 640,
+    "scale": 2,
+    "size": 4,
+    "viewportHeight": 568,
+    "viewportWidth": 320
+  },
+  {
+    "deviceid": ["iPhone5,1", "iPhone5,2"],
+    "model": "iPhone 5",
+    "physicalHeigth": 1136,
+    "physicalWidth": 640,
+    "scale": 2,
+    "size": 4,
+    "viewportHeight": 568,
+    "viewportWidth": 320
+  },
+  {
+    "deviceid": ["iPhone4,1"],
+    "model": "iPhone 4S",
+    "physicalHeigth": 960,
+    "physicalWidth": 640,
+    "scale": 2,
+    "size": 3.5,
+    "viewportHeight": 480,
+    "viewportWidth": 320
+  },
+  {
+    "deviceid": ["iPhone3,1", "iPhone3,2", "iPhone3,3"],
+    "model": "iPhone 4",
+    "physicalHeigth": 960,
+    "physicalWidth": 640,
+    "scale": 2,
+    "size": 3.5,
+    "viewportHeight": 480,
+    "viewportWidth": 320
+  },
+  {
+    "deviceid": ["iPhone2,1"],
+    "model": "iPhone 3GS",
+    "physicalHeigth": 480,
+    "physicalWidth": 320,
+    "scale": 1,
+    "size": 3.5,
+    "viewportHeight": 480,
+    "viewportWidth": 320
+  },
+  {
+    "deviceid": ["iPhone1,2"],
+    "model": "iPhone 3G",
+    "physicalHeigth": 480,
+    "physicalWidth": 320,
+    "scale": 1,
+    "size": 3.5,
+    "viewportHeight": 480,
+    "viewportWidth": 320
+  },
+  {
+    "deviceid": ["iPhone1,1"],
+    "model": "iPhone 1st gen",
+    "physicalHeigth": 480,
+    "physicalWidth": 320,
+    "scale": 1,
+    "size": 3.5,
+    "viewportHeight": 480,
+    "viewportWidth": 320
+  },
+  {
+    "deviceid": ["iPad14,1", "iPad14,2"],
+    "model": "iPad mini 6th Gen",
+    "physicalHeigth": 2266,
+    "physicalWidth": 1488,
+    "scale": 2,
+    "size": 8.3,
+    "viewportHeight": 1133,
+    "viewportWidth": 744
+  },
+  {
+    "deviceid": ["iPad12,1", "iPad12,2"],
+    "model": "iPad 9th gen",
+    "physicalHeigth": 2160,
+    "physicalWidth": 1620,
+    "scale": 2,
+    "size": 10.2,
+    "viewportHeight": 1080,
+    "viewportWidth": 810
+  },
+  {
+    "deviceid": ["iPad13,8", "iPad13,9", "iPad13,10", "iPad13,11"],
+    "model": "iPad Pro 12.9 inch 5th Gen",
+    "physicalHeigth": 2732,
+    "physicalWidth": 2048,
+    "scale": 2,
+    "size": 12.9,
+    "viewportHeight": 1366,
+    "viewportWidth": 1024
+  },
+  {
+    "deviceid": ["iPad13,4", "iPad13,5", "iPad13,6", "iPad13,7"],
+    "model": "iPad Pro 11 inch 5th Gen",
+    "physicalHeigth": 2388,
+    "physicalWidth": 1668,
+    "scale": 2,
+    "size": 11,
+    "viewportHeight": 1194,
+    "viewportWidth": 834
+  },
+  {
+    "deviceid": ["iPad13,1", "iPad13,2"],
+    "model": "iPad Air 4th Gen",
+    "physicalHeigth": 2360,
+    "physicalWidth": 1640,
+    "scale": 2,
+    "size": 10.9,
+    "viewportHeight": 1180,
+    "viewportWidth": 820
+  },
+  {
+    "deviceid": ["iPad13,16", "iPad13,17"],
+    "model": "iPad Air 5th Gen",
+    "physicalHeigth": 2360,
+    "physicalWidth": 1640,
+    "scale": 2,
+    "size": 10.9,
+    "viewportHeight": 1180,
+    "viewportWidth": 820
+  },
+  {
+    "deviceid": ["iPad11,6", "iPad11,7"],
+    "model": "iPad 8th gen",
+    "physicalHeigth": 2160,
+    "physicalWidth": 1620,
+    "scale": 2,
+    "size": 10.2,
+    "viewportHeight": 1080,
+    "viewportWidth": 810
+  },
+  {
+    "deviceid": ["iPad8,11", "iPad8,12"],
+    "model": "iPad Pro 12.9 inch 4th Gen",
+    "physicalHeigth": 2732,
+    "physicalWidth": 2048,
+    "scale": 2,
+    "size": 12.9,
+    "viewportHeight": 1366,
+    "viewportWidth": 1024
+  },
+  {
+    "deviceid": ["iPad8,9", "iPad8,10"],
+    "model": "iPad Pro 11 inch 4th Gen",
+    "physicalHeigth": 2388,
+    "physicalWidth": 1668,
+    "scale": 2,
+    "size": 11,
+    "viewportHeight": 1194,
+    "viewportWidth": 834
+  },
+  {
+    "deviceid": ["iPad7,11", "iPad7,12"],
+    "model": "iPad 7th Gen 10.2-inch",
+    "physicalHeigth": 2160,
+    "physicalWidth": 1620,
+    "scale": 2,
+    "size": 10.2,
+    "viewportHeight": 1080,
+    "viewportWidth": 810
+  },
+  {
+    "deviceid": ["iPad11,1", "iPad11,2"],
+    "model": "iPad mini 5th Gen",
+    "physicalHeigth": 2048,
+    "physicalWidth": 1536,
+    "scale": 2,
+    "size": 7.9,
+    "viewportHeight": 1024,
+    "viewportWidth": 768
+  },
+  {
+    "deviceid": ["iPad11,3", "iPad11,4"],
+    "model": "iPad Air 3rd Gen",
+    "physicalHeigth": 2224,
+    "physicalWidth": 1668,
+    "scale": 2,
+    "size": 10.5,
+    "viewportHeight": 1112,
+    "viewportWidth": 834
+  },
+  {
+    "deviceid": ["iPad8,5", "iPad8,6", "iPad8,7", "iPad8,8"],
+    "model": "iPad Pro 12.9 inch 3rd Gen",
+    "physicalHeigth": 2732,
+    "physicalWidth": 2048,
+    "scale": 2,
+    "size": 12.9,
+    "viewportHeight": 1366,
+    "viewportWidth": 1024
+  },
+  {
+    "deviceid": ["iPad8,1", "iPad8,2", "iPad8,3", "iPad8,4"],
+    "model": "iPad Pro 11 inch 3rd Gen",
+    "physicalHeigth": 2388,
+    "physicalWidth": 1668,
+    "scale": 2,
+    "size": 11,
+    "viewportHeight": 1194,
+    "viewportWidth": 834
+  },
+  {
+    "deviceid": ["iPad7,5", "iPad7,6"],
+    "model": "iPad 6th gen",
+    "physicalHeigth": 2048,
+    "physicalWidth": 1536,
+    "scale": 2,
+    "size": 9.7,
+    "viewportHeight": 1024,
+    "viewportWidth": 768
+  },
+  {
+    "deviceid": ["iPad7,1", "iPad7,2"],
+    "model": "iPad Pro 2nd Gen",
+    "physicalHeigth": 2732,
+    "physicalWidth": 2048,
+    "scale": 2,
+    "size": 12.9,
+    "viewportHeight": 1366,
+    "viewportWidth": 1024
+  },
+  {
+    "deviceid": ["iPad7,3", "iPad7,4"],
+    "model": "iPad Pro 10.5-inch 2nd Gen",
+    "physicalHeigth": 2224,
+    "physicalWidth": 1668,
+    "scale": 2,
+    "size": 10.5,
+    "viewportHeight": 1112,
+    "viewportWidth": 834
+  },
+  {
+    "deviceid": ["iPad6,11", "iPad6,12"],
+    "model": "iPad 5th gen",
+    "physicalHeigth": 2048,
+    "physicalWidth": 1536,
+    "scale": 2,
+    "size": 9.7,
+    "viewportHeight": 1024,
+    "viewportWidth": 768
+  },
+  {
+    "deviceid": ["iPad6,3", "iPad6,4"],
+    "model": "iPad Pro",
+    "physicalHeigth": 2048,
+    "physicalWidth": 1536,
+    "scale": 2,
+    "size": 9.7,
+    "viewportHeight": 1024,
+    "viewportWidth": 768
+  },
+  {
+    "deviceid": ["iPad6,7", "iPad6,8"],
+    "model": "iPad Pro",
+    "physicalHeigth": 2732,
+    "physicalWidth": 2048,
+    "scale": 2,
+    "size": 12.9,
+    "viewportHeight": 1366,
+    "viewportWidth": 1024
+  },
+  {
+    "deviceid": ["iPad5,1", "iPad5,2"],
+    "model": "iPad mini 4",
+    "physicalHeigth": 2048,
+    "physicalWidth": 1536,
+    "scale": 2,
+    "size": 7.9,
+    "viewportHeight": 1024,
+    "viewportWidth": 768
+  },
+  {
+    "deviceid": ["iPad5,3", "iPad5,4"],
+    "model": "iPad Air 2",
+    "physicalHeigth": 2048,
+    "physicalWidth": 1536,
+    "scale": 2,
+    "size": 9.7,
+    "viewportHeight": 1024,
+    "viewportWidth": 768
+  },
+  {
+    "deviceid": ["iPad4,7", "iPad4,8", "iPad4,9"],
+    "model": "iPad mini 3",
+    "physicalHeigth": 2048,
+    "physicalWidth": 1536,
+    "scale": 2,
+    "size": 7.9,
+    "viewportHeight": 1024,
+    "viewportWidth": 768
+  },
+  {
+    "deviceid": ["iPad4,4", "iPad4,5", "iPad4,6"],
+    "model": "iPad mini Retina",
+    "physicalHeigth": 2048,
+    "physicalWidth": 1536,
+    "scale": 2,
+    "size": 7.9,
+    "viewportHeight": 1024,
+    "viewportWidth": 768
+  },
+  {
+    "deviceid": ["iPad4,1", "iPad4,2", "iPad4,3"],
+    "model": "iPad Air",
+    "physicalHeigth": 2048,
+    "physicalWidth": 1536,
+    "scale": 2,
+    "size": 9.7,
+    "viewportHeight": 1024,
+    "viewportWidth": 768
+  },
+  {
+    "deviceid": ["iPad3,4", "iPad3,5", "iPad3,6"],
+    "model": "iPad 4th gen",
+    "physicalHeigth": 2048,
+    "physicalWidth": 1536,
+    "scale": 2,
+    "size": 9.7,
+    "viewportHeight": 1024,
+    "viewportWidth": 768
+  },
+  {
+    "deviceid": ["iPad2,5", "iPad2,6", "iPad2,7"],
+    "model": "iPad mini",
+    "physicalHeigth": 1024,
+    "physicalWidth": 768,
+    "scale": 1,
+    "size": 7.9,
+    "viewportHeight": 1024,
+    "viewportWidth": 768
+  },
+  {
+    "deviceid": ["iPad3,1", "iPad3,2", "iPad3,3"],
+    "model": "iPad 3rd gen",
+    "physicalHeigth": 2048,
+    "physicalWidth": 1536,
+    "scale": 2,
+    "size": 9.7,
+    "viewportHeight": 1024,
+    "viewportWidth": 768
+  },
+  {
+    "deviceid": ["iPad2,1", "iPad2,2", "iPad2,3", "iPad2,4"],
+    "model": "iPad 2",
+    "physicalHeigth": 1024,
+    "physicalWidth": 768,
+    "scale": 1,
+    "size": 9.7,
+    "viewportHeight": 1024,
+    "viewportWidth": 768
+  },
+  {
+    "deviceid": ["iPad1,1", "iPad1,2"],
+    "model": "iPad 1st gen",
+    "physicalHeigth": 1024,
+    "physicalWidth": 768,
+    "scale": 1,
+    "size": 9.7,
+    "viewportHeight": 1024,
+    "viewportWidth": 768
+  },
+  {
+    "deviceid": ["iPod9,1"],
+    "model": "iPod touch 7th gen",
+    "physicalHeigth": 1136,
+    "physicalWidth": 640,
+    "scale": 2,
+    "size": 4,
+    "viewportHeight": 568,
+    "viewportWidth": 320
+  },
+  {
+    "deviceid": ["iPod7,1"],
+    "model": "iPod touch 6th gen",
+    "physicalHeigth": 1136,
+    "physicalWidth": 640,
+    "scale": 2,
+    "size": 4,
+    "viewportHeight": 568,
+    "viewportWidth": 320
+  },
+  {
+    "deviceid": ["iPod5,1"],
+    "model": "iPod touch 5th gen",
+    "physicalHeigth": 1136,
+    "physicalWidth": 640,
+    "scale": 2,
+    "size": 4,
+    "viewportHeight": 568,
+    "viewportWidth": 320
+  },
+  {
+    "deviceid": ["iPod4,1"],
+    "model": "iPod touch 4th gen",
+    "physicalHeigth": 960,
+    "physicalWidth": 640,
+    "scale": 2,
+    "size": 3.5,
+    "viewportHeight": 480,
+    "viewportWidth": 320
+  },
+  {
+    "deviceid": ["iPod3,1"],
+    "model": "iPod touch 3rd gen",
+    "physicalHeigth": 480,
+    "physicalWidth": 320,
+    "scale": 1,
+    "size": 3.5,
+    "viewportHeight": 480,
+    "viewportWidth": 320
+  },
+  {
+    "deviceid": ["iPod2,1"],
+    "model": "iPod touch 2nd gen",
+    "physicalHeigth": 480,
+    "physicalWidth": 320,
+    "scale": 1,
+    "size": 3.5,
+    "viewportHeight": 480,
+    "viewportWidth": 320
+  },
+  {
+    "deviceid": ["iPod1,1"],
+    "model": "iPod touch 1st gen",
+    "physicalHeigth": 480,
+    "physicalWidth": 320,
+    "scale": 1,
+    "size": 3.5,
+    "viewportHeight": 480,
+    "viewportWidth": 320
+  }
+]
