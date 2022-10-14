@@ -1,5 +1,45 @@
 [
   {
+    "deviceid": ["iPhone15,3"],
+    "model": "iPhone 14 Pro Max",
+    "physicalHeigth": 2796,
+    "physicalWidth": 1290,
+    "scale": 3,
+    "size": 6.7,
+    "viewportHeight": 932,
+    "viewportWidth": 430
+  },
+  {
+    "deviceid": ["iPhone15,2"],
+    "model": "iPhone 14 Pro",
+    "physicalHeigth": 2556,
+    "physicalWidth": 1179,
+    "scale": 3,
+    "size": 6.1,
+    "viewportHeight": 852,
+    "viewportWidth": 393
+  },
+  {
+    "deviceid": ["iPhone14,8"],
+    "model": "iPhone 14 Plus",
+    "physicalHeigth": 2778,
+    "physicalWidth": 1284,
+    "scale": 3,
+    "size": 6.7,
+    "viewportHeight": 926,
+    "viewportWidth": 428
+  },
+  {
+    "deviceid": ["iPhone14,7"],
+    "model": "iPhone 14",
+    "physicalHeigth": 2532,
+    "physicalWidth": 1170,
+    "scale": 3,
+    "size": 6.1,
+    "viewportHeight": 844,
+    "viewportWidth": 390
+  },
+  {
     "deviceid": ["iPhone14,5"],
     "model": "iPhone 13",
     "physicalHeigth": 2532,
