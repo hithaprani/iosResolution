@@ -1,0 +1,79 @@
+name: Auto Merge PR from Specific User
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Check if PR is from a specific user
+        id: check_user
+        run: |
+          pr_author=$(jq -r .pull_request.user.login "$GITHUB_EVENT_PATH")
+          echo "PR Author: $pr_author"
+          if [[ "$pr_author" != "andrei-vig" ]]; then
+            echo "PR is not from the specified user."
+            exit 0
+          fi
+
+      - name: Check that only devices.json is in the PR
+        id: check_files
+        run: |
+          changed_files=$(gh pr view ${{ github.event.pull_request.number }} --json files --jq '.files[].path')
+          if [[ "$changed_files" != "devices.json" ]]; then
+            echo "PR contains files other than 'devices.json'."
+            exit 1
+          fi
+          
+      - name: Validate JSON structure
+        id: validate_json
+        run: |
+          python - <<EOF
+import json
+import sys
+
+def validate_devices_json(json_data):
+    required_keys = ["deviceid", "model", "physicalHeigth", "physicalWidth", "scale", "size", "viewportHeight", "viewportWidth"]
+    for device in json_data:
+        for key in required_keys:
+            if key not in device:
+                print(f"Missing key: {key} in {device}")
+                sys.exit(1)
+        if not isinstance(device["deviceid"], list):
+            print("deviceid must be a list.")
+            sys.exit(1)
+        if not isinstance(device["physicalHeigth"], int) or not isinstance(device["physicalWidth"], int):
+            print("physicalHeigth and physicalWidth must be integers.")
+            sys.exit(1)
+        if not isinstance(device["scale"], int) or not isinstance(device["size"], float):
+            print("scale must be an integer and size must be a float.")
+            sys.exit(1)
+
+with open("devices.json") as f:
+    try:
+        data = json.load(f)
+    except json.JSONDecodeError:
+        print("Invalid JSON format.")
+        sys.exit(1)
+
+    validate_devices_json(data)
+EOF
+        continue-on-error: true
+
+      - name: Request changes if validation failed
+        if: failure()
+        run: |
+          gh pr comment ${{ github.event.pull_request.number }} --body "The JSON file doesn't follow the required structure. Please correct the issues and resubmit."
+          exit 1
+
+      - name: Auto-merge the pull request
+        if: success()
+        run: |
+          gh pr merge ${{ github.event.pull_request.number }} --auto --merge
