@@ -35,36 +35,7 @@ jobs:
       - name: Validate JSON structure
         id: validate_json
         run: |
-          python - <<EOF
-import json
-import sys
-
-def validate_devices_json(json_data):
-    required_keys = ["deviceid", "model", "physicalHeigth", "physicalWidth", "scale", "size", "viewportHeight", "viewportWidth"]
-    for device in json_data:
-        for key in required_keys:
-            if key not in device:
-                print(f"Missing key: {key} in {device}")
-                sys.exit(1)
-        if not isinstance(device["deviceid"], list):
-            print("deviceid must be a list.")
-            sys.exit(1)
-        if not isinstance(device["physicalHeigth"], int) or not isinstance(device["physicalWidth"], int):
-            print("physicalHeigth and physicalWidth must be integers.")
-            sys.exit(1)
-        if not isinstance(device["scale"], int) or not isinstance(device["size"], float):
-            print("scale must be an integer and size must be a float.")
-            sys.exit(1)
-
-with open("devices.json") as f:
-    try:
-        data = json.load(f)
-    except json.JSONDecodeError:
-        print("Invalid JSON format.")
-        sys.exit(1)
-
-    validate_devices_json(data)
-EOF
+          python scripts/validate_devices_json.py devices.json
         continue-on-error: true
 
       - name: Request changes if validation failed
