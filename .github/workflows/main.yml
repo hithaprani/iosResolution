@@ -26,9 +26,9 @@ jobs:
         run: |
           pr_author=$(jq -r .pull_request.user.login "$GITHUB_EVENT_PATH")
           echo "PR Author: $pr_author"
-          if [[ "$pr_author" != "andrei-vig" && "$pr_author" != "another-author" ]]; then
+          if [[ "$pr_author" != "andrei-vig" && "$pr_author" != "hithaprani" ]]; then
             echo "PR is not from a specified user."
-            exit 0
+            exit 1
           fi
 
       - name: Check that only devices.json is in the PR
