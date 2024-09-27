@@ -1,7 +1,7 @@
 [
     {
-    "deviceid": ["iPhone17,2”],
-    "model": "iPhone 16 Pro Max”,
+    "deviceid": ["iPhone17,2"],
+    "model": "iPhone 16 Pro Max",
     "physicalHeigth": 2868,
     "physicalWidth": 1320,
     "scale": 3,
@@ -10,8 +10,8 @@
     "viewportWidth": 440
   },
   {
-    "deviceid": ["iPhone17,1”],
-    "model": "iPhone 16 Pro”,
+    "deviceid": ["iPhone17,1"],
+    "model": "iPhone 16 Pro",
     "physicalHeigth": 2622,
     "physicalWidth": 1206,
     "scale": 3,
@@ -21,7 +21,7 @@
   },
   {
     "deviceid": ["iPhone17,4"],
-    "model": "iPhone 16 Plus”,
+    "model": "iPhone 16 Plus",
     "physicalHeigth": 2796,
     "physicalWidth": 1290,
     "scale": 3,
@@ -31,7 +31,7 @@
   },
   {
     "deviceid": ["iPhone17,3"],
-    "model": "iPhone 16”,
+    "model": "iPhone 16",
     "physicalHeigth": 2556,
     "physicalWidth": 1179,
     "scale": 3,
