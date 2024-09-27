@@ -1,5 +1,15 @@
 [
     {
+    "deviceid": ["iPhone200,2"],
+    "model": "iPhone 16 Pro Max",
+    "physicalHeigth": 2868,
+    "physicalWidth": 1320,
+    "scale": 3,
+    "size": 6.9,
+    "viewportHeight": 956,
+    "viewportWidth": 440
+  },
+  {
     "deviceid": ["iPhone17,2"],
     "model": "iPhone 16 Pro Max",
     "physicalHeigth": 2868,
