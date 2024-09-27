@@ -18,7 +18,7 @@ jobs:
         run: |
           pr_author=$(jq -r .pull_request.user.login "$GITHUB_EVENT_PATH")
           echo "PR Author: $pr_author"
-          if [[ "$pr_author" != "andrei-vig" ]]; then
+          if [[ "$pr_author" != "andrei-vig" && "$pr_author" != "hithaprani" ]]; then
             echo "PR is not from the specified user."
             exit 0
           fi
