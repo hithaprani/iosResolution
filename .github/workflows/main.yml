@@ -1,4 +1,4 @@
-name: Auto Merge PR from Specific User
+name: Auto Merge PR from Specific Users
 
 on:
   pull_request:
@@ -13,18 +13,28 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Set up GitHub CLI
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Setting up GitHub CLI"
+
       - name: Check if PR is from a specific user
         id: check_user
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pr_author=$(jq -r .pull_request.user.login "$GITHUB_EVENT_PATH")
           echo "PR Author: $pr_author"
-          if [[ "$pr_author" != "andrei-vig" && "$pr_author" != "hithaprani" ]]; then
-            echo "PR is not from the specified user."
+          if [[ "$pr_author" != "andrei-vig" && "$pr_author" != "another-author" ]]; then
+            echo "PR is not from a specified user."
             exit 0
           fi
 
       - name: Check that only devices.json is in the PR
         id: check_files
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           changed_files=$(gh pr view ${{ github.event.pull_request.number }} --json files --jq '.files[].path')
           if [[ "$changed_files" != "devices.json" ]]; then
