@@ -50,11 +50,15 @@ jobs:
 
       - name: Request changes if validation failed
         if: steps.validate_json.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh pr comment ${{ github.event.pull_request.number }} --body "The JSON file doesn't follow the required structure. Please correct the issues and resubmit."
           exit 1
 
       - name: Auto-merge the pull request
         if: steps.validate_json.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh pr merge ${{ github.event.pull_request.number }} --auto --merge
